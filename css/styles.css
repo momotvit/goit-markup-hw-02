@@ -234,9 +234,11 @@ ul {
     border-color: transparent;
 }
 
-.filter-btn:hover {
+.filter-btn:hover,
+.filter-btn:focus {
     background-color: var(--main-blue-color);
     color: var(--main-white-coloor);
+    /* outline: solid 3px var(--logo-black-color); */
 }
 
 .filter-item {
